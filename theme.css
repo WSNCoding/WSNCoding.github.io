@@ -6,6 +6,13 @@ body{
   margin:auto;
   height: 100%;
 }
+a {
+  color: white;
+}
+a #content {
+  color:black;
+  font-weight:bold;
+}
 #content{
   background-color: white;
   color: black;
