@@ -12,4 +12,6 @@ body{
   width: 90%;
   height: 90%;
   margin:auto;
+  position: absolute;
+  bottom: 0;
 }
