@@ -4,6 +4,7 @@ body{
   color: white;
   background-color: black;
   margin:auto;
+  height: 100%;
 }
 #content{
   background-color: white;
