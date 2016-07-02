@@ -1,11 +1,12 @@
 body{
-font-family: Calibri, Arial;
-text-align:center;
-color: white;
-background-color: black;
+  font-family: Calibri, Arial;
+  text-align:center;
+  color: white;
+  background-color: black;
+  margin:auto;
 }
 #content{
-background-color: white;
-color: black;
-width: 90%;
+  background-color: white;
+  color: black;
+  width: 90%;
 }
