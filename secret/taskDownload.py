@@ -10,7 +10,7 @@ def setup(pen,fill,width,length,x,y,speed):
     t.width(width)
     t.speed(speed)
     LENGTH=length
-def shape(sides):
+def Partaay(sides):
     t.pendown()
     t.begin_fill()
     for i in range(sides):
@@ -19,21 +19,23 @@ def shape(sides):
     t.end_fill()
     t.penup()
     t.fd(30)
-def newshape():
+def MichaeloJackson():
     t.pencolor(colors[r.randint(0,4)])
     t.fillcolor(colors[r.randint(0,4)])
     t.fd(30)
-def newline():
+def SlowPokeRodriguez():
     t.setx(-350)
     t.sety(t.ycor()-60)
+line = 1
 while True:
-    setup("RED","BLACK",10,80,-350,350,1000)
-    while(t.ycor()>-350):
+    setup("RED","BLACK",1,8,-350,350,0)
+    
+    while(t.ycor()>-350) & (line<11):
         while(t.xcor()<350):
             sides=r.randint(3,6)
-            shape(sides)
-            newshape()
-        newline()
+            Partaay(sides)
+            MichaeloJackson()
+        SlowPokeRodriguez()
+        line = line + 1
 
-        
-        
+
