@@ -9,7 +9,7 @@ body{
 a {
   color: white;
 }
-a #content{
+#content a{
   color:black;
   font-weight:bold;
 }
