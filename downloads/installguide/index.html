@@ -3,6 +3,17 @@
 <head>
 <title>Anagrams | WSNC</title>
 <link rel="stylesheet" type="text/css" href="https://wsncoding.github.io/theme.css">
+<SCRIPT LANGUAGE="JavaScript">
+
+function ClipBoard() 
+{
+holdtext.innerText = copytext.innerText;
+Copied = holdtext.createTextRange();
+Copied.execCommand("Copy");
+}
+
+</SCRIPT>
+
 <body>
 <div id="header"><br>
 <h1>WSNCODING</h1>
@@ -16,7 +27,8 @@
 <br></div>
 <div id="content"><br>
 <h2>Anagrams Installation Guide</h2>
-<h3>When asked for installaton path we recommend selecting your desktop: 'C:\Users\INSERTUSERNAME\Desktop\Anagrams' </h3>
+<h3>When asked for installaton path we recommend selecting your desktop: <a onClick="Clipboard();"> <SPAN ID="copytext">C:\Users\INSERTUSERNAME\Desktop\Anagrams</SPAN><TEXTAREA ID="holdtext" STYLE="display:none;">
+</TEXTAREA></h3>
 <h3>This will create a file on your desktop called Anagrams. To create a shortcut for ease of use, enter the folder and right click the .exe file. Then select send to, then Desktop. Further extensive guide within install folder (README.txt).
 </h3>
 <br>
