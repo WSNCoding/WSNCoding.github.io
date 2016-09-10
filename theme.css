@@ -7,7 +7,8 @@ body{
   height: 100%;
 }
 a {
-  color: white;
+  color: black;
+  font-weight: 100;
 }
 #content a{
   color:black;
