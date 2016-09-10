@@ -2,7 +2,7 @@ body{
   font-family: Calibri, Arial;
   text-align:center;
   color: white;
-  background-color: blue;
+  background-color: black;
   margin:auto;
   height: 100%;
 }
@@ -10,11 +10,11 @@ a {
   color: white;
 }
 #content a{
-  color:orange;
+  color:black;
   font-weight:bold;
 }
 #content{
-  background-color: black;
+  background-color: white;
   color: black;
   width: 90%;
   height: 90%;
