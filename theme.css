@@ -2,7 +2,7 @@ body{
   font-family: Calibri, Arial;
   text-align:center;
   color: white;
-  background-color: black;
+  background-color: blue;
   margin:auto;
   height: 100%;
 }
@@ -14,7 +14,7 @@ a {
   font-weight:bold;
 }
 #content{
-  background-color: white;
+  background-color: black;
   color: black;
   width: 90%;
   height: 90%;
