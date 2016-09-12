@@ -1,7 +1,7 @@
 body{
   font-family: Calibri, Arial;
   text-align:center;
-  color: blue;
+  color: black;
   background-color: black;
   margin:auto;
   height: 100%;
@@ -21,8 +21,6 @@ a {
   height: 90%;
   margin:auto;
 }
-
-body {
-    background-image: url("output_poVjJo.gif");
+body{
+  background-image: url("output_sKTUBE.gif");
 }
-
