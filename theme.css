@@ -25,9 +25,9 @@ body{
   
 }
 body {
-    -webkit-animation:name 2s infinite;
+    -webkit-animation:name 2s infinites;
 }
 
 @-webkit-keyframes name {
-  background-color: black;
-  background-color: white;
+0% {background-color:black;}
+100% {background-color:white;}
