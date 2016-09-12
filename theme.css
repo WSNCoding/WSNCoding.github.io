@@ -23,7 +23,7 @@ a {
 }
 body{
   background-image: url("output_sKTUBE.gif");
-  -webkit-animation:name 10s infinite;
+  -webkit-animation:name 30s infinite;
   
 }
 @-webkit-keyframes name {
