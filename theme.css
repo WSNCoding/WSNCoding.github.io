@@ -22,5 +22,11 @@ a {
   margin:auto;
 }
 body{
-  background-image: url("output_sKTUBE.gif");
+  
 }
+body {
+    -webkit-animation:name 2s 1;
+}
+
+@-webkit-keyframes name {
+  background-image: url("output_sKTUBE.gif");
