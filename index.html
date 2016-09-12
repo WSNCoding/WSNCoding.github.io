@@ -13,10 +13,23 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+  function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+while True {
+  sleep(600);
+  document.getElementById("title").innerHTML = Illuminati;
+</script>
 </head>
 <body>
 <div id="header"><br>
-<h1>WSNCODING</h1>
+<h1 id="title">WSNCODING</h1>
 <h2>Coders, nerds, gangsters...</h2>
 <h2>You know, the usual...</h2>
 <h2><a href="https://wsncoding.github.io">Home</a>
