@@ -22,5 +22,10 @@ a {
   margin:auto;
 }
 body{
-  background-image: url("output_poVjJo.gif");
+  background-image: url("output_sKTUBE.gif");
+  -webkit-animation:name 10s infinite;
+  
+}
+@-webkit-keyframes name {
+  100%{background-image: url("output_poVjJo.gif");}
 }
