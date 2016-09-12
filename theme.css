@@ -1,13 +1,13 @@
 body{
   font-family: Calibri, Arial;
   text-align:center;
-  color: black;
+  color: white;
   background-color: black;
   margin:auto;
   height: 100%;
 }
 a {
-  color: black;
+  color: white;
   font-weight:bold;
 }
 #content a{
