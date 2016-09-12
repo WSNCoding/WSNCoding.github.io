@@ -13,20 +13,6 @@
   ga('send', 'pageview');
 
 </script>
-<script>
-  function sleep(milliseconds) {
-  var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milliseconds){
-      break;
-    }
-  }
-}
-while True {
-  sleep(600);
-  document.getElementById("title").innerHTML = "Illuminati";
-}
-</script>
 </head>
 <body>
 <div id="header"><br>
@@ -39,6 +25,19 @@ while True {
 <a href="https://wsncoding.github.io/interactive">Interactive</a>
 <a href="https://wsncoding.github.io/contact">Contact</a></h2>
 <br></div>
+
+<script>
+  function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+sleep(600);
+document.getElementById("title").innerHTML = "Illuminati";
+</script>
 <div id="content"><br>
 <h2>Home</h2>
 <h3>Members: TheM1N3R63, Fishlips525, NinjutsuFish, Relton</h3>
