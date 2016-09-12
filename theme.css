@@ -23,9 +23,6 @@ a {
 }
 
 body {
-    -webkit-animation:name 2s infinites;
+    background-image: url("output_poVjJo.gif");
 }
 
-@-webkit-keyframes name {
-0% {background-color:black;}
-100% {background-color:white;}
