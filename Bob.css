@@ -1,0 +1,33 @@
+body{
+  font-family: Calibri, Arial;
+  text-align:center;
+  color: white;
+  background-color: black;
+  margin:auto;
+  height: 100%;
+}
+a {
+  color: white;
+  font-weight:bold;
+}
+#content a{
+  color:black;
+  font-weight:bold;
+}
+#content{
+  background-color: white;
+  color: black;
+  width: 90%;
+  height: 90%;
+  margin:auto;
+}
+body{
+  background-image: url("output_sKTUBE.gif");
+  -webkit-animation:name 12s 1;
+}
+@-webkit-keyframes name {
+  100%{background-image: url("output_poVjJo.gif");}
+  
+  
+  
+}
