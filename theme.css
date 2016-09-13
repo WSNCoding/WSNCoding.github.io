@@ -3,6 +3,7 @@ body{
   text-align:center;
   color: white;
   background-color: black;
+  background-attachment:fixed;
   margin:auto;
   height: 100%;
 }
