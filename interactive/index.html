@@ -3,18 +3,6 @@
 <head>
 <title>Interactive | WSNC</title>
 <link rel="stylesheet" type="text/css" href="https://wsncoding.github.io/theme.css">
-<script>
-today=new Date();
-var cmas=new Date(today.getFullYear(), 11, 25);
-if (today.getMonth()==11 && today.getDate()>25) 
-{
-cmas.setFullYear(cmas.getFullYear()+1); 
-}  
-var one_day=1000*60*60*24;
-var output = (Math.ceil((cmas.getTime()-today.getTime())/(one_day))+
-" days left until Christmas!");
-document.getElementById("christmas").innerHTML = "test";
-</script>
 </head>
 <body>
 <div><br>
@@ -30,6 +18,18 @@ document.getElementById("christmas").innerHTML = "test";
 <div id="content"> <br>
 <h1> Interactive </h1>
 <h2 id="christmas">Fill</h2>
+<script>
+today=new Date();
+var cmas=new Date(today.getFullYear(), 11, 25);
+if (today.getMonth()==11 && today.getDate()>25) 
+{
+cmas.setFullYear(cmas.getFullYear()+1); 
+}  
+var one_day=1000*60*60*24;
+var output = (Math.ceil((cmas.getTime()-today.getTime())/(one_day))+
+" days left until Christmas!");
+document.getElementById("christmas").innerHTML = "test";
+</script>
 <object type="application/x-shockwave-flash" data="http://lab.andre-michelle.com/swf/fl10/pulsate.swf" width="512" height="512" id="swf-container" style="visibility: visible;"><param name="base" value="./swf/fl10/"><param name="wmode" value="window"><param name="AllowScriptAccess" value="always"></object><br>
 </div>
 </body>
