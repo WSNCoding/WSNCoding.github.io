@@ -24,7 +24,7 @@ a {
 body{
   background-image: url("output_sKTUBE.gif");
   -webkit-animation:name 12s 1;
-  background-image: url("output_poVjJo.gif")
+  background-image: url("output_poVjJo.gif");
 }
 @-webkit-keyframes name {
   100%{background-image: url("output_poVjJo.gif");}
