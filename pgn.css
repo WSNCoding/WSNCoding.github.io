@@ -1,0 +1,29 @@
+body{
+  font-family: Calibri, Arial;
+  text-align:center;
+  color: black;
+  background-color: black;
+  margin:auto;
+  height: 100%;
+}
+a {
+  color: pink ;
+  font-weight:bold;
+}
+#content a{
+  color:black;
+  font-weight:bold;
+}
+#content{
+  background-color: pink;
+  color: black;
+  width: 90%;
+  height: 90%;
+  margin:auto;
+}
+
+
+  
+  
+  
+}
