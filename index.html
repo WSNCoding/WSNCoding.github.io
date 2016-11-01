@@ -41,12 +41,12 @@ today=new Date();
 var cmas=new Date(today.getFullYear(), 10, 8);
 if (today.getMonth()==11 && today.getDate()>25) 
 {
-cmas.setFullYear(cmas.getFullYear()+1); 
-}  
+cmas.setFullYear(cmas.getFullYear()+1);
+}
 var one_day=1000*60*60*24;
-var output = (Math.ceil((cmas.getTime()-today.getTime())/(one_day))+
+var output1 = (Math.ceil((cmas.getTime()-today.getTime())/(one_day))+
 " days left until Christmas!");
-document.getElementById("christmas").innerHTML=output;
+document.getElementById("christmas").innerHTML=output1;
 </script>
 <div id="content"><br>
 <h2>Home</h2>
